@@ -47,12 +47,14 @@ nav ul li a {
     border-radius: 5px;
     transition: .5s;
 }
-#join-now{
+
+#join-now {
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
     color: #d52b2b;
 }
+
 a.active,
 a:hover {
     background: rgb(232 110 93);
@@ -136,20 +138,35 @@ a:hover {
 .section1 {
     height: 500px;
 }
-.section1-cont{
+
+.section1-cont {
     width: 100%;
     height: 100%;
 }
 
-.top-left-cont{
+.top-left-cont {
     width: 80%;
 }
 
-.topRightImg{
+.topRightImg {
     height: 100%;
 }
 
-.dumbell{
+.dumbell {
     width: 150px;
 
+}
+
+.sec-2-heading {
+    font-size: 42px;
+}
+
+.section-2 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 33vw;
 }
