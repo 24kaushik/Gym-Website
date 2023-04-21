@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
 
 
 
@@ -12,7 +12,7 @@
 
 
 nav {
-    background: #8072c5;
+    background: rgb(227 74 56);
     height: 80px;
     width: 100%;
 }
@@ -22,7 +22,8 @@ nav {
     font-weight: bold;
     color: white;
     line-height: 80px;
-    padding: 0 20px;
+    padding: 0 60px;
+    cursor: pointer;
 }
 
 nav ul {
@@ -46,10 +47,15 @@ nav ul li a {
     border-radius: 5px;
     transition: .5s;
 }
-
+#join-now{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: #d52b2b;
+}
 a.active,
 a:hover {
-    background: #8f83c8;
+    background: rgb(232 110 93);
     transition: .5s;
 
 }
@@ -87,7 +93,7 @@ a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #342c50;
+        background: rgb(160 90 63);
         top: 80px;
         left: -100%;
         text-align: center;
@@ -106,10 +112,44 @@ a:hover {
     a.active,
     a:hover {
         background: none;
-        color: #aa89d0;
+        color: rgb(232 110 93);
     }
 }
 
 #check:checked~ul {
     left: 0;
+}
+
+
+.top-left {
+    width: 70vw;
+    justify-content: center;
+
+    /* align-items: center; */
+}
+
+.top-right {
+    width: 30vw;
+    height: 100%;
+}
+
+.section1 {
+    height: 500px;
+}
+.section1-cont{
+    width: 100%;
+    height: 100%;
+}
+
+.top-left-cont{
+    width: 80%;
+}
+
+.topRightImg{
+    height: 100%;
+}
+
+.dumbell{
+    width: 150px;
+
 }

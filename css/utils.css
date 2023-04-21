@@ -14,3 +14,34 @@
 .flex{
     display: flex;
 }
+.flex-col{
+    flex-direction: column;
+}
+.align-center{
+
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+
+
+.my-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-large{
+    font-size: 40px;
+}
+
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
