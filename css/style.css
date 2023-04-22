@@ -180,12 +180,11 @@ padding-top: 35px;
     background-color: #d52b2b;
     color: white;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 
 .btn:hover{
-    background: rgb(232 110 93);
     border: 2px solid black;
 }
 
@@ -213,4 +212,12 @@ hr{
 footer{
     padding: 25px ;
     text-align: center;
+}
+
+.deal{
+    color: black;
+}
+
+.section1 .btn{
+    padding: 5px 10px;
 }
