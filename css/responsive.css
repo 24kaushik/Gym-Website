@@ -1,0 +1,20 @@
+@media (max-width: 999px) {
+    .top-right {
+        display: none;
+    }
+
+    .top-left {
+        width: 100%;
+    }
+
+    .section1 {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .sec-2-cont {
+        padding: 0 33px;
+
+    }
+}
